@@ -1,4 +1,10 @@
-function greetMe(tuNombre){
-    alert("Hola " + tuNombre);
+let variable;
+
+let var2;
+
+operacion();
+
+function operacion(variable, CONSTANTE){
+    let resultado = variable + CONSTANTE;
+    console.log("El resultado es: " + resultado);
 }
-console.log(eval('3 + 5'));
