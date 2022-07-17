@@ -2,9 +2,8 @@ let variable;
 
 let var2;
 
-operacion();
+operacion(12,8);
 
-function operacion(variable, CONSTANTE){
-    let resultado = variable + CONSTANTE;
-    console.log("El resultado es: " + resultado);
+function operacion(variable, var2){
+    let resultado = variable + var2;
 }
